@@ -2,10 +2,10 @@
   "name": "@serpi90/eslint-config",
   "version": "1.0.0",
   "description": "Custom ESLint preset",
+  "main": "index.js",
   "author": {
     "name": "Julián Maestri"
   },
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@eslint/js": "^8.56.0",
