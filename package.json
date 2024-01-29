@@ -2,28 +2,16 @@
   "name": "@serpi90/eslint-config",
   "version": "1.0.0",
   "description": "Custom ESLint preset",
-  "type": "module",
-  "scripts": {
-    "lint": "eslint --fix *.js *.cjs",
-    "format": "prettier --write *.js *.cjs"
-  },
   "author": {
     "name": "Julián Maestri"
   },
-  "exports": {
-    ".": {
-      "import": "./eslint.config.js",
-      "require": "./eslint.config.cjs"
-    },
-    "./prettier.config.js": {
-      "import": "./prettier.config.js",
-      "require": "./prettier.config.cjs"
-    }
-  },
+  "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "^8.56.0",
-    "globals": "^13.24.0",
-    "prettier": "^3.2.4"
+    "globals": "^13.24.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
   }
 }
