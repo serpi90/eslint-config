@@ -30,7 +30,7 @@ module.exports = [
       'block-scoped-var': 'error',
       camelcase: 'error',
       'consistent-return': 'error',
-      curly: ['error', 'multi', 'consistent'],
+      curly: ['error', 'multi-line', 'consistent'],
       'default-case': 'error',
       'default-case-last': 'error',
       'default-param-last': 'error',
