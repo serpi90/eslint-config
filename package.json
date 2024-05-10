@@ -1,6 +1,6 @@
 {
   "name": "@serpi90/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Custom ESLint preset",
   "main": "index.js",
   "author": {
