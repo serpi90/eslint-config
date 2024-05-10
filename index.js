@@ -36,6 +36,7 @@ module.exports = [
       'default-param-last': 'error',
       'dot-notation': 'error',
       eqeqeq: 'error',
+      'max-depth': 'warn',
       'no-array-constructor': 'error',
       'no-console': 'warn',
       'no-continue': 'error',
