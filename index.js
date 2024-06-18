@@ -23,6 +23,7 @@ module.exports = [
       'no-unreachable-loop': 'error',
       'no-unused-private-class-members': 'error',
       'no-use-before-define': 'error',
+      'no-unused-vars': ['error', { "args": "after-used", "caughtErrorsIgnorePattern": "^_", "destructuredArrayIgnorePattern: "^_" }],
       'require-atomic-updates': 'error',
 
       // Suggestions
