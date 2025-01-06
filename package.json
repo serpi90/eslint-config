@@ -1,17 +1,17 @@
 {
   "name": "@serpi90/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Custom ESLint preset",
-  "main": "index.js",
+  "license": "MIT",
   "author": {
     "name": "Julián Maestri"
   },
-  "license": "MIT",
+  "main": "index.js",
   "dependencies": {
-    "@eslint/js": "^9.4.0",
-    "globals": "^15.4.0"
+    "@eslint/js": "^9.17.0",
+    "globals": "^15.14.0"
   },
   "peerDependencies": {
-    "eslint": "^9.4.0"
+    "eslint": "^9.17.0"
   }
 }
