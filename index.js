@@ -23,13 +23,20 @@ module.exports = [
       'no-unreachable-loop': 'error',
       'no-unused-private-class-members': 'error',
       'no-use-before-define': 'error',
-      'no-unused-vars': ['error', { "args": "after-used", "caughtErrorsIgnorePattern": "^_", "destructuredArrayIgnorePattern": "^_" }],
+      'no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+        },
+      ],
       'require-atomic-updates': 'error',
 
       // Suggestions
       'arrow-body-style': ['error', 'as-needed'],
       'block-scoped-var': 'error',
-      camelcase: 'error',
+      camelcase: ['error', { properties: 'never' }],
       'consistent-return': 'error',
       curly: ['error', 'multi-line', 'consistent'],
       'default-case': 'error',
