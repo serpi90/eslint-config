@@ -67,7 +67,6 @@ module.exports = [
       'no-return-assign': 'error',
       'no-sequences': 'error',
       'no-shadow': 'error',
-      'no-undefined': 'error',
       'no-unneeded-ternary': 'error',
       'no-unused-expressions': 'error',
       'no-useless-call': 'error',
